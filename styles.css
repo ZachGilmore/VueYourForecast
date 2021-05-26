@@ -1,0 +1,34 @@
+/* Zach Gilmore
+5-18-21
+CIS-131
+Project: Final Project */
+
+/* Header Styles */
+header {
+    background-image: url("images/weather_header.png");
+    background-attachment: scroll;
+    background-size: fixed;
+    width: 100%;
+    margin: auto;
+}
+
+/* Body Styles */
+body {
+    background-color: rgb(10, 153, 201);
+    background-image: url("images/body.png");
+    background-position: center;
+    color: black;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+    margin-top: 50px;
+    background-color: rgba(131, 8, 247, 0.219);
+    text-align: center;
+}
+
+/* Styling for temperature returns */
+.list-group-item {
+    background-color: rgba(131, 8, 247, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
